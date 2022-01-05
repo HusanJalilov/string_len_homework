@@ -23,4 +23,6 @@ def main(s1,s2,s3):
         return f"[{s2}]"
     elif z!=0:
         return f"[{s3}]"
+    else:
+        return "[]"
         
