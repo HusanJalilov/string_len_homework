@@ -12,17 +12,17 @@ def main(s1,s2,s3):
     y=len(s2)%2
     z=len(s3)%2
     if x!=0 and y!=0 and z!=0:
-        return f"[{s1}, {s2}, {s3}]"
+        return "["+s1+" "+s2+", "+s3+"]"
     elif x!=0 and y!=0:
-        return f"[{s1}, {s2}]"
+        return "["+s1+", "+s2+"]"
     elif y!=0 and z!=0:
-        return f"[{s2}, {s3}]"
+        return "["+s2+", "+s3+"]"
     elif x!=0:
-        return f"[{s1}]"
+        return "["+s1+"]"
     elif y!=0:
-        return f"[{s2}]"
+        return "["+s2+"]"
     elif z!=0:
-        return f"[{s3}]"
+        return "["+s3+"]"
     else:
         return "[]"
         
