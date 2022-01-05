@@ -6,4 +6,5 @@ def main(s):
     Returns:
         string
     """
-    return
+    a=len(s)
+    return "*"*a
