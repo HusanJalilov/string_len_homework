@@ -17,4 +17,10 @@ def main(s1,s2,s3):
         return f"[{s1}, {s2}]"
     elif y!=0 and z!=0:
         return f"[{s2}, {s3}]"
+    elif x!=0:
+        return f"[{s1}]"
+    elif y!=0:
+        return f"[{s2}]"
+    elif z!=0:
+        return f"[{s3}]"
         
